@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+
+  iPhone16:
+    image: iphone_bark:latest
+    container_name: 16ProMax
+    restart: on-failure:1
+    environment:
+      - bk=ELvJ9NHnM7cqvUtuyeS8c6
+      - xh=MYTQ3CH/A
+      - dq=广东-深圳-南山区
+      - cs=深圳,广州
+      - mz=Max
+      #- ys=白色钛金属,原色钛金属,黑色钛金属
+      # - rl=None
+      # - dp=None
+      - qdsj=2024-09-15 19:59:00
+      - tzsj=2024-10-15 16:59:00
+      - bark=1
+      - wxpush=0
+      - wxpushtoken=AT_uhjpnxvzuzqWRJj9YsDrqdFJwpCxa38L
+      # - wxpushuids
+      - wxpushtopicIds=12489,12491
